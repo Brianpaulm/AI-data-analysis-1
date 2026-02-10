@@ -24,7 +24,3 @@ performs advanced analytics, and exposes results through an analyst-grade intera
 ```bash
 export DASHBOARD_SECRET_KEY=change_me
 streamlit run src/ui/dashboard/app.py
-```
-
-## Extending
-Add new formats by implementing a parser in `core/parsers` and registering it in the ingestion engine.
